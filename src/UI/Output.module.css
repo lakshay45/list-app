@@ -1,0 +1,141 @@
+.card{
+    width: 90vw;
+    height: 87vh;
+    background: rgb(211, 209, 209);
+    position: absolute;
+    border-radius: 1%;
+    top:4vw;
+    left:5vw;
+}
+.firstLayer{
+    clear: both;
+}
+.secondLayer{
+    clear: both;
+}
+.firstHeading{
+    clear: both;
+}
+.secondHeading{
+    clear: both;
+}
+.headingA{
+    float: left;
+    margin-left: 10%;
+    font-size: 1.3vw;
+}
+.headingB{
+    float: right;
+    margin-right: 30%;
+    font-size: 1.3vw;
+}
+.headingAB{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10vh;
+    font-size: 1.3vw;
+}
+.headingAUB{
+    margin-top: 10vh;
+    float: right;
+    margin-right:23%;
+    font-size: 1.3vw;
+}
+.onlyA{
+    width: 30%;
+    height: 20vh;
+    margin-left: 10%;
+    resize: none;
+}
+.onlyB{
+    float: right;
+    width: 30%;
+    height: 20vh;
+    margin-right: 4%;
+    resize: none;
+}
+.bothAB{
+    width: 30%;
+    height: 20vh;
+    margin-left: 10%;
+    resize: none;
+}
+.unionAB{
+    float: right;
+    width: 30%;
+    height: 20vh;
+    margin-right: 4%;
+    resize: none;
+}
+.btn{
+    border: 0px;
+    font-weight: bold;
+    background-color: black;
+    font-family: cursive;
+    color: white;
+    border-radius: 6px;
+    font-size: 1vw;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 2vh;
+    margin-left: 50%;
+}
+@media(max-width:800px)
+{
+    .headingA{
+        font-size: 1.6vw;
+    }
+    .headingB{
+        font-size: 1.6vw;
+    }
+    .headingAB{
+        font-size: 1.6vw;
+    }
+    .headingAUB{
+        font-size: 1.6vw;
+    }
+    .btn{
+        font-size: 2vw;
+    }
+}
+@media(max-width:550px)
+{
+    .headingA{
+        font-size: 3.8vw;
+    }
+    .headingB{
+        font-size: 3.8vw;
+        margin-right: 23vw;
+    }
+    .headingAB{
+        font-size: 3.8vw;
+    }
+    .headingAUB{
+        font-size: 3.8vw;
+        margin-right: 3vw;
+    }
+    .btn{
+        font-size: 3vw;
+    }
+}
+/* @media(max-height:600px)
+{
+    .onlyA{
+        height: 5vh;
+    }
+    .onlyB{
+        height: 5vh;
+    }
+    .bothAB{
+        height: 5vh;
+    }
+    .unionAB{
+        height: 5vh;
+    }
+    .btn{
+        margin-left: 45vw;
+    }
+    .card{
+        height: 100vh;
+    }
+} */

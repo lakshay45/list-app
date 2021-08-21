@@ -1,0 +1,85 @@
+.layer{
+    clear: both;
+}
+.layerHeading{
+    clear: both;
+}
+.inputA{
+    float: left;
+    margin-left: 13%;
+    width: 25%;
+    height: 60vh;
+    resize: none;
+}
+.inputB{
+    float: right;
+    margin-right: 14%;
+    width: 25%;
+    height: 60vh;
+    resize: none;
+}
+.label1{
+    float: left;
+    margin-left: 13%;
+    margin-top: 7%;
+    font-weight: 100;
+    font-size: 2vw;
+    font-family: cursive;
+    color:white;
+}
+.label2{
+    float: right;
+    margin-top: 7%;
+    margin-right: 20%;
+    font-size: 2vw;
+    color:white;
+    font-family: cursive;
+    font-weight: 100;
+}
+.btn{
+    border: 0px;
+    font-weight: bold;
+    background-color: black;
+    font-family: cursive;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+@media(max-width:900px)
+{
+    body{
+        width: 100%;
+    }
+    .label2{
+        margin-right: 14vw;
+        font-size: 2.8vw;
+    }
+    .label1{
+        font-size: 2.8vw;
+    }
+
+}
+@media(max-height:730px)
+{
+    .inputA{
+        height: 25vh;
+    }
+    .inputB{
+        height: 25vh;
+    }
+    .btn{
+        font-size: 2vh;
+        margin-top: 20vh;
+    }
+}
+
+@media(max-height:550px)
+{
+    .btn{
+        margin-top: 20vh;
+    }
+}
